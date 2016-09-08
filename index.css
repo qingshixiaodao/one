@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*------头部--------*/
+#header{
+	background-color: white;
+	width: 1200px;
+	margin: 0 auto;
+}
+#nav-img img{
+	display: block;
+}
+#nav-select{
+	height: 50px;
+	width: 1200px;
+	border:1px solid black;
+}
+#nav-select ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden
+}
+#nav-select ul li{
+	font-size: 20px;
+	font-weight: bold;
+	float: left;
+	padding:0 30px;
+	line-height: 50px;
+}
+#nav-select ul li a{
+	text-decoration:none;
+	color:green;
+}
+#nav-select ul li a:hover{
+	color:green;
+}
+.home{
+	margin-left:140px;
+}
+.nav-select-move{
+	margin-left:100px; 
+}
+/*--container----------------------------------------------*/
+.ice-cream{
+	width: 1200px;
+	height: 280px;
+	margin: 0 auto;
+}
+.ice-cream img{
+	display:block;
+	margin: 0 auto;
+}
+.container-second{
+	border:1px solid black;
+	width: 1200px;
+	margin: 0 auto;
+}
